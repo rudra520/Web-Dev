@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-hostel-bg: #D6E6F3;
+  --color-hostel-card: #a6c5d7;
+  --color-hostel-logo: #0f52ba;
+}
+
+@layer base {
+  html,
+  body {
+    @apply text-slate-900 bg-[var(--color-hostel-bg)];
+  }
+
+  .using-mouse * {
+    outline: none !important;
+  }
+}
+
+.hostel-card {
+  background-color: #a6c5d7;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.logo-section {
+  background-color: #0f52ba;
+  color: white;
+}
