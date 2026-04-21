@@ -47,7 +47,7 @@ git clone https://github.com/your-org/hostel-guard-ai.git
 cd hostel-guard-ai
 git checkout raw-standalone   # <-- important!-->
 ```
-
+---
 ##📂 Project Structure
 
 hostel-guard-ai/                      # root of raw-standalone branch
@@ -73,3 +73,4 @@ hostel-guard-ai/                      # root of raw-standalone branch
 ├── requirements.txt                  # (optional – but we use pip install inline)
 │
 └── README.md                         # This file
+---
