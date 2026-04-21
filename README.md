@@ -48,7 +48,7 @@ cd hostel-guard-ai
 git checkout raw-standalone   # <-- important!-->
 ```
 ---
-##📂 Project Structure
+## 📂 Project Structure
 
 hostel-guard-ai/                      # root of raw-standalone branch
 │
