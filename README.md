@@ -46,3 +46,32 @@ This branch removes all cloud-managed services (Convex, Firebase, etc.) and impl
 git clone https://github.com/your-org/hostel-guard-ai.git
 cd hostel-guard-ai
 git checkout raw-standalone   # <-- important!
+
+
+
+
+
+
+hostel-guard-ai/                      # root of raw-standalone branch
+│
+├── python_backend/                   # 🐍 ALL backend logic
+│   └── main.py                       # FastAPI app + SQLite + recognition (single file)
+│
+├── src/                              # ⚛️ React frontend
+│   ├── routes/                       # Page components
+│   │   ├── Dashboard.jsx
+│   │   ├── SecurityLogs.jsx
+│   │   └── BiometricHUD.jsx
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public/                           # Static assets
+│   └── index.html
+│
+├── hostel_management.db              # 🗄️ SQLite database (auto-created)
+│
+├── package.json                      # Frontend dependencies
+├── vite.config.js                    # Vite dev server config
+├── requirements.txt                  # (optional – but we use pip install inline)
+│
+└── README.md                         # This file
