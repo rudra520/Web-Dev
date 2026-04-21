@@ -49,7 +49,8 @@ git checkout raw-standalone   # <-- important!-->
 ```
 ---
 ## 📂 Project Structure
-
+---
+```
 hostel-guard-ai/                      # root of raw-standalone branch
 │
 ├── python_backend/                   # 🐍 ALL backend logic
@@ -74,3 +75,4 @@ hostel-guard-ai/                      # root of raw-standalone branch
 │
 └── README.md                         # This file
 ---
+```
