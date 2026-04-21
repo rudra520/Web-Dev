@@ -45,12 +45,10 @@ This branch removes all cloud-managed services (Convex, Firebase, etc.) and impl
 ```bash
 git clone https://github.com/your-org/hostel-guard-ai.git
 cd hostel-guard-ai
-git checkout raw-standalone   # <-- important!
+git checkout raw-standalone   # <-- important!-->
+```
 
-
-
-
-
+##📂 Project Structure
 
 hostel-guard-ai/                      # root of raw-standalone branch
 │
