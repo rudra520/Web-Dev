@@ -74,5 +74,5 @@ hostel-guard-ai/                      # root of raw-standalone branch
 ├── requirements.txt                  # (optional – but we use pip install inline)
 │
 └── README.md                         # This file
----
+
 
